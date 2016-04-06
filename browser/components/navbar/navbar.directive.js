@@ -11,5 +11,5 @@ app.directive('navbar', function ($state, $location) {
 				return path.startsWith(partial);
 			};
 		}
-	}
+	};
 });
