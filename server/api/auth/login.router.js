@@ -9,6 +9,7 @@ var User = require('../users/user.model');
 // 	res.send('You got to the login route');
 // });
 
+
 router.post('/', function(req, res, next) {
 
     User.findOne({

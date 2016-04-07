@@ -9,7 +9,6 @@ app.controller('StoryDetailCtrl', function ($scope, story, users, AuthFactory) {
 	$scope.userHasRights = function() {
 		var currentUser = AuthFactory.getCurrentUser();
 		if (!currentUser) return false;
-		console.log (currentUser === story.author || currentUser.isAdmin);
 		return (currentUser === story.author || currentUser.isAdmin);
 	};
 

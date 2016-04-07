@@ -18,7 +18,7 @@ app.factory('AuthFactory', function($http) {
 	auth.signup = function(user) {
 		return $http.post('/api/users', user)
 		.then(function(user) {
-			return login(user.data);
+			return auth.login(user.data);
 		});
 	};
 

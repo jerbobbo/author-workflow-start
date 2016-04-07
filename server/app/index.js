@@ -14,6 +14,7 @@ app.use(require('./statics.middleware'));
 app.use('/login', require('../api/auth/login.router'));
 app.use('/logout', require('../api/auth/logout.router'));
 app.use('/auth/me', require('../api/auth/me.router'));
+app.use('/auth/google/callback', require('../api/auth/google.router'));
 
 app.use('/api', require('../api/api.router'));
 

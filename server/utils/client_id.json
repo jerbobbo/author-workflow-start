@@ -9,3 +9,45 @@
         "redirect_uris": ["http://127.0.0.1:8080/auth/google/callback"]
     }
 }
+
+{
+    id: '111413872324078324339',
+    displayName: 'Rob Debbane',
+    name: {
+        familyName: 'Debbane',
+        givenName: 'Rob'
+    },
+    emails: [{
+        value: 'robbob@gmail.com',
+        type: 'account'
+    }],
+    photos: [{
+        value: 'https://lh5.googleusercontent.com/-tgoyIxMYlgE/AAAAAAAAAAI/AAAAAAAABzM/GGKvd1D3qrU/photo.jpg?sz=50'
+    }],
+    gender: 'male',
+    provider: 'google',
+    _raw: '{\n "kind": "plus#person",\n "etag": "\\"4OZ_Kt6ujOh1jaML_U6RM6APqoE/N_1HfFKEIGYTFCk6UlyH3CMVuBI\\"",\n "gender": "male",\n "emails": [\n  {\n   "value": "robbob@gmail.com",\n   "type": "account"\n  }\n ],\n "objectType": "person",\n "id": "111413872324078324339",\n "displayName": "Rob Debbane",\n "name": {\n  "familyName": "Debbane",\n  "givenName": "Rob"\n },\n "url": "https://plus.google.com/111413872324078324339",\n "image": {\n  "url": "https://lh5.googleusercontent.com/-tgoyIxMYlgE/AAAAAAAAAAI/AAAAAAAABzM/GGKvd1D3qrU/photo.jpg?sz=50",\n  "isDefault": false\n },\n "isPlusUser": true,\n "circledByCount": 101,\n "verified": false\n}\n',
+    _json: {
+        kind: 'plus#person',
+        etag: '"4OZ_Kt6ujOh1jaML_U6RM6APqoE/N_1HfFKEIGYTFCk6UlyH3CMVuBI"',
+        gender: 'male',
+        emails: [
+            [Object]
+        ],
+        objectType: 'person',
+        id: '111413872324078324339',
+        displayName: 'Rob Debbane',
+        name: {
+            familyName: 'Debbane',
+            givenName: 'Rob'
+        },
+        url: 'https://plus.google.com/111413872324078324339',
+        image: {
+            url: 'https://lh5.googleusercontent.com/-tgoyIxMYlgE/AAAAAAAAAAI/AAAAAAAABzM/GGKvd1D3qrU/photo.jpg?sz=50',
+            isDefault: false
+        },
+        isPlusUser: true,
+        circledByCount: 101,
+        verified: false
+    }
+}
